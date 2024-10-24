@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 36px;
+    color: black;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin: 0px 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Poppins", system-ui;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 35px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgba(61, 204, 73, 0.979);
+    margin-right: -35px;
+}
+.btn1{
+    width: 40%;
+    height: 35px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    background-color: rgba(61, 204, 73, 0.979);
+    color: white;
+    font-weight: 600;
+}
+.main{
+    background: url("images/bg-img.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.main h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.btn2{
+    border: none;
+    outline: none;
+    background-color: rgba(209, 89, 10, 0.938);
+    color: white;
+    width: 30%;
+    height: 45px;
+    border-radius: 60px;
+    font-weight: 700;
+    transition: background-color 0.5s;
+}
+.btn2:hover{
+    background-color: rgb(37, 36, 36);
+}
+h1{
+    font-weight: 700;
+}
+.img-fluid{
+    width: 120px;
+}
+.btn3{
+    border: none;
+    outline: none;
+    background-color: rgba(1, 125, 179, 0.938);
+    color: rgb(253, 244, 244);
+    width: 30%;
+    height: 45px;
+    border-radius: 60px;
+    font-weight: 650;
+}
+.btn3:hover{
+    background-color: rgba(62, 144, 190, 0.938);
+    transition: 0.5s;
+}
+.card:hover{
+    -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+     transition: 0.5s;
+}
+.feedback-images{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+.suggestion{
+    background:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.3)), url("images/suggestion-bg.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70%;
+    /* object-fit: cover; */
+}
+.suggestion h1{
+    font-family: "Spicy Rice", serif;
+    font-weight: 500;
+}
+.footer{
+    background-color: black;
+    color: whitesmoke;
+}
+/* .footer input{
+    height: 40px;
+    width: 50%;
+    border:  2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.btn4{
+    height: 40px;
+    width: 100px;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+    background: white;
+} */
+ .footer input{
+    height: 40px;
+    width: 50%;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 2px;
+    /* margin-top: 20px; */
+ }
+ .btn4{
+    height: 40px;
+    border: 3px solid white;
+    width: 100px;
+    border-radius: 2px;
+    margin-left: 5px;
+    /* margin-top: 20px; */
+    font-weight: 600;
+ }
+ .footer p{
+    margin: 0;
+ }
+ .fa-brands{
+    font-size: 2rem;
+    cursor: pointer;
+    padding-right: 5px;
+ }
+
+ /*removing focus outline*/
+ .navbar-toggler:focus{
+    box-shadow: none;
+ }
+ .remove:focus{
+    box-shadow: none;
+ }
+ 
+ 
